@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:orientation="vertical"
+    android:paddingEnd="@dimen/horizontal_padding"
+    android:paddingStart="@dimen/horizontal_padding">
+
+    <TextView
+        android:id="@+id/item_course.txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vertical_padding"
+        android:textAppearance="?android:textAppearanceListItem"/>
+
+    <TextView
+        android:id="@+id/item_course.txtNumberGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginBottom="@dimen/vertical_padding"
+        android:textAppearance="?android:textAppearanceListItemSecondary"/>
+</LinearLayout>

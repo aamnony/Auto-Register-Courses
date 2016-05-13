@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/action_waiting_list"
+        android:icon="@drawable/ic_shopping_cart_white_24dp"
+        android:orderInCategory="0"
+        android:showAsAction="always"
+        android:title="@string/waiting_list"
+        tools:ignore="AlwaysShowAction"/>
+
+    <item
+        android:id="@+id/action_set_alarm"
+        android:icon="@drawable/ic_alarm_white_24dp"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="@string/set_alarm"/>
+
+    <item
+        android:id="@+id/action_open_log_file"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="@string/open_log_file"/>
+
+    <item
+        android:id="@+id/action_force_check"
+        android:orderInCategory="3"
+        android:showAsAction="never"
+        android:title="@string/force_check"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="4"
+        android:showAsAction="never"
+        android:title="@string/title_activity_settings"/>
+</menu>

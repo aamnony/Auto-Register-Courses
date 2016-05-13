@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingEnd="@dimen/horizontal_padding"
+    android:paddingStart="@dimen/horizontal_padding">
+
+    <EditText
+        android:id="@+id/dialog_add_to_cart.editCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vertical_padding"
+        android:ems="6"
+        android:gravity="start"
+        android:hint="@string/course_number"
+        android:inputType="phone"/>
+
+
+    <EditText
+        android:id="@+id/dialog_add_to_cart.editGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/vertical_padding"
+        android:layout_marginTop="@dimen/small_vertical_padding"
+        android:ems="2"
+        android:gravity="start"
+        android:hint="@string/group_number"
+        android:inputType="phone"/>
+</LinearLayout>

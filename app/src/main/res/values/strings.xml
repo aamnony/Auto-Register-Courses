@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">ראם</string>
+    <string name="my_cart">My Cart</string>
+    <string name="add_course_to_cart">Add course to cart</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="add_to_waiting_list">Add to waiting list</string>
+    <string name="remove">Remove</string>
+    <string name="remove_course">Remove course %s?</string>
+    <string name="course_number">Course number</string>
+    <string name="group_number">Group number</string>
+    <string name="add_success">Course %s successfully added to cart</string>
+    <string name="add_error">Error adding %s to cart</string>
+    <string name="remove_success">Course %s removed from cart</string>
+    <string name="remove_error">Error removing %s from cart</string>
+    <string name="empty_course_or_group">Must provide course and group numbers</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="pref_header_general">Login Info</string>
+
+    <string name="pref_title_user_id">Id</string>
+    <string name="pref_default_user_id">Id</string>
+
+    <string name="pref_header_data_sync">Data &amp; Sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>900000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>10800000</item>
+        <item>21600000</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_default_password">Password</string>
+    <string name="pref_title_password">Password</string>
+    <string name="set_alarm">Set next check</string>
+    <string name="pref_header_debug">Debugging</string>
+    <string name="pref_title_debug">Enable debugging</string>
+    <string name="open_log_file">Log file</string>
+    <string name="waiting_list">Waiting List</string>
+    <string name="empty">Empty</string>
+    <string name="force_check">Force check now</string>
+</resources>
